@@ -1,0 +1,16 @@
+curl -H "Content-Type: application/json" \
+     -H "Authorization: key=AAAAPP74_eI:APA91bFVmEKA8haU5dyp4ydVbode5NB_aaADFfIKhiSKlazvvPyI9jzcRyggHKjlLWcYLdYIrhb_wpXVugZIYORnyIKzo9TLUMhuO_IhC0mASSRdTY2XZW60t0eJ3CFvlhkfifoyGUTR" \
+     -d '{
+           "notification": {
+             "title": "New chat message!",
+             "body": "There is a new message in FriendlyChat",
+             "icon": "/images/profile_placeholder.png",
+             "click_action": "http://localhost:5000"
+           },
+           "to": "eX2841EMHJbxD0leuvl8Ip:APA91bH-Lkbckni2oJouO4GgD9HzHx0aHKBZXhaOQpIUoO-ZtuiIpjBqG0praUUY_JJ3bH25SnZ6TfC2dsVvSQLtD9UIT5D-eqssJKRGWmHC9p--KdMdFlgi4GKAam6UZSwdZ9SZgsKt"
+         }' \
+     https://fcm.googleapis.com/fcm/send
+
+Got FCM device token: eX2841EMHJbxD0leuvl8Ip:APA91bH-Lkbckni2oJouO4GgD9HzHx0aHKBZXhaOQpIUoO-ZtuiIpjBqG0praUUY_JJ3bH25SnZ6TfC2dsVvSQLtD9UIT5D-eqssJKRGWmHC9p--KdMdFlgi4GKAam6UZSwdZ9SZgsKt
+
+Server Key: AAAAPP74_eI:APA91bFVmEKA8haU5dyp4ydVbode5NB_aaADFfIKhiSKlazvvPyI9jzcRyggHKjlLWcYLdYIrhb_wpXVugZIYORnyIKzo9TLUMhuO_IhC0mASSRdTY2XZW60t0eJ3CFvlhkfifoyGUTR
